@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+    <Reports>
+        <ReportPath>./Reports/</ReportPath>
+        <ReportName>Ron_Glick.html</ReportName>
+    </Reports>
+        <Performance>
+            <MinTime>10</MinTime>
+            <MaxTime>5000</MaxTime>
+        </Performance>
+</Configuration>

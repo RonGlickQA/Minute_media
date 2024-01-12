@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "Minute Media suite">
+    <test name = "Tests" preserve-order="true">
+        <groups>
+            <run>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests_API.post"></class>
+            <class name="tests_API.get"></class>
+            <class name="tests_API.edit"></class>
+            <class name="tests_API.delete"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,34 @@
+
+<Data>
+    <Addresses>
+        <URL>http://localhost:5000</URL>
+        <Paths>
+            <Path></Path>
+            <Path>users</Path>
+        </Paths>
+    </Addresses>
+
+    <Users>
+        <User>
+            <Name></Name>
+            <Id></Id>
+        </User>
+        <User>
+            <Name>Thomas A. Anderson</Name>
+            <Id>1</Id>
+        </User>
+        <User>
+            <Name>NEO</Name>
+            <Id>2</Id>
+            <Company>White rabbit</Company>
+        </User>
+        <User>
+            <Name>Name</Name>
+            <Id>-12</Id>
+        </User>
+        <User>
+            <Name>Non existing id</Name>
+            <Id>Non_existing_id</Id>
+        </User>
+    </Users>
+</Data>
