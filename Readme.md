@@ -2,7 +2,7 @@
 
     - POST - Adding a new user to the service.
 The following bugs were found to this method:
-- ID could be added manually **as a String**, instead of an incremental Integer.
+- ID could be added manually **as a String**, instead of an **automatically added** incremental Integer.
 - An empty object could be added, without name or ID.
 - An object without name could be added.
 - An object without ID could be added, therefore, unable to be fetched by it.   
