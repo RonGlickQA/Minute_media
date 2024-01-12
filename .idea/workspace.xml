@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0896e79c-295d-40d3-858d-105744def50e" name="Changes" comment="POM - Dependencies">
-      <change afterPath="$PROJECT_DIR$/Configuration/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configuration/run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Extensions/API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Extensions/assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Utilities/base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Utilities/common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Utilities/init.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/tests_API/delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/tests_API/edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/tests_API/get.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/tests_API/post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0896e79c-295d-40d3-858d-105744def50e" name="Changes" comment="BE - API infrastructure &amp; tests">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +157,7 @@
       <workItem from="1704994791557" duration="2145000" />
       <workItem from="1704996953991" duration="766000" />
       <workItem from="1704998871969" duration="5892000" />
-      <workItem from="1705007887960" duration="24269000" />
+      <workItem from="1705007887960" duration="25080000" />
     </task>
     <task id="LOCAL-00001" summary="POM - Dependencies">
       <created>1704995431766</created>
@@ -178,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704995431766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BE - API infrastructure &amp; tests">
+      <created>1705068813779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705068813780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="POM - Dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM - Dependencies" />
+    <MESSAGE value="BE - API infrastructure &amp; tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="BE - API infrastructure &amp; tests" />
   </component>
 </project>
