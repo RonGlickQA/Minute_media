@@ -5,7 +5,7 @@
         <ReportName>Ron_Glick.html</ReportName>
     </Reports>
         <Performance>
-            <MinTime>10</MinTime>
+            <MinTime>5</MinTime>
             <MaxTime>5000</MaxTime>
         </Performance>
 </Configuration>

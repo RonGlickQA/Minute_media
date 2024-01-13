@@ -1,4 +1,16 @@
-# The following API tests-cases execute 4 HTTP methods of user services:
+# Minute media home assignment - Ron Glick.
+ Reports containing test-cases names, descriptions & steps are exported to both Allure & Extent reports.
+
+## UI
+Please notice: '@Optional' variables need to be manually set,as described in the documentation,
+in case execution is not done from 'run.xml'.
+    
+    # PlatformName - API/UI.
+    # BrowserName - Chrome/FireFox.
+    # Timeout - Timeout limit in seconds as a String.
+
+## API
+### The following API tests-cases execute 4 HTTP methods of user services:
 
     - POST - Adding a new user to the service.
 The following bugs were found to this method:

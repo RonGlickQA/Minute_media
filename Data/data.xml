@@ -2,6 +2,7 @@
 <Data>
     <Addresses>
         <URL>http://localhost:5000</URL>
+        <URL>https://www.90min.com</URL>
         <Paths>
             <Path></Path>
             <Path>users</Path>
@@ -31,4 +32,19 @@
             <Id>Non_existing_id</Id>
         </User>
     </Users>
+
+    <Header>
+        <Titles>
+            <Title>News</Title>
+            <Title>Transfer News</Title>
+            <Title>Premier League</Title>
+            <Title>European Leagues</Title>
+            <Title>Champions League</Title>
+            <Title>Women</Title>
+            <Title>Features</Title>
+            <Title>International</Title>
+            <Title>Players</Title>
+            <Title>More</Title>
+        </Titles>
+    </Header>
 </Data>

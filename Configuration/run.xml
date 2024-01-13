@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <suite name = "Minute Media suite">
-    <test name = "Tests" preserve-order="true">
+    <test name = "API" preserve-order="true">
+        <parameter name="PlatformName" value="API"></parameter>
         <groups>
             <run>
             </run>
@@ -11,6 +12,14 @@
             <class name="tests_API.get"></class>
             <class name="tests_API.edit"></class>
             <class name="tests_API.delete"></class>
+        </classes>
+    </test>
+    <test name = "UI" preserve-order="true">
+        <parameter name="PlatformName" value="Web"></parameter>
+        <parameter name="BrowserName" value="Chrome"></parameter>
+        <parameter name="Timeout" value="5"></parameter>
+        <classes>
+            <class name="tests_UI.selenium"></class>
         </classes>
     </test>
 </suite>

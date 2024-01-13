@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0896e79c-295d-40d3-858d-105744def50e" name="Changes" comment="BE - API infrastructure &amp; tests">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    <list default="true" id="0896e79c-295d-40d3-858d-105744def50e" name="Changes" comment="Readme.md - API task - POST - ID - 'automatically added' addition.">
+      <change afterPath="$PROJECT_DIR$/Infrastructure/PageObjects/Shared/HeaderMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/tests_UI/selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Extensions/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Extensions/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Utilities/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Utilities/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Utilities/common.java" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Utilities/common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Utilities/init.java" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Utilities/init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,7 +48,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/QA/Automation/Java/Minute_media&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/QA/Automation/Java/CB4/CB4&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
@@ -50,6 +60,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn install" />
     </option>
   </component>
@@ -64,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="edit.putUserValidName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="get" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Minute_media" />
       <extension name="coverage">
         <pattern>
@@ -72,53 +83,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests_API" />
-      <option name="MAIN_CLASS_NAME" value="tests_API.edit" />
-      <option name="METHOD_NAME" value="putUserValidName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="get.getAllObjects" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Minute_media" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests_API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Configuration/run.xml" />
       <option name="PACKAGE_NAME" value="tests_API" />
       <option name="MAIN_CLASS_NAME" value="tests_API.get" />
-      <option name="METHOD_NAME" value="getAllObjects" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="get.getValidObject" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Minute_media" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests_API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests_API" />
-      <option name="MAIN_CLASS_NAME" value="tests_API.get" />
-      <option name="METHOD_NAME" value="getValidObject" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="post.postValidUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="post" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Minute_media" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +103,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests_API" />
       <option name="MAIN_CLASS_NAME" value="tests_API.post" />
-      <option name="METHOD_NAME" value="postValidUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="post.postUserMissingName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Minute_media" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_API" />
+      <option name="MAIN_CLASS_NAME" value="tests_API.post" />
+      <option name="METHOD_NAME" value="postUserMissingName" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="selenium" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Minute_media" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_UI" />
+      <option name="MAIN_CLASS_NAME" value="tests_UI.selenium" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.F:/QA/Automation/Java/Minute_media/Configuration/run.xml" />
-        <item itemvalue="TestNG.edit.putUserValidName" />
-        <item itemvalue="TestNG.get.getAllObjects" />
-        <item itemvalue="TestNG.post.postValidUser" />
-        <item itemvalue="TestNG.get.getValidObject" />
+        <item itemvalue="TestNG.get" />
+        <item itemvalue="TestNG.post.postUserMissingName" />
+        <item itemvalue="TestNG.post" />
+        <item itemvalue="TestNG.selenium" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +166,15 @@
       <workItem from="1704994791557" duration="2145000" />
       <workItem from="1704996953991" duration="766000" />
       <workItem from="1704998871969" duration="5892000" />
-      <workItem from="1705007887960" duration="25080000" />
+      <workItem from="1705007887960" duration="26549000" />
+      <workItem from="1705144883957" duration="126000" />
+      <workItem from="1705145219545" duration="8061000" />
+      <workItem from="1705153645938" duration="663000" />
+      <workItem from="1705154499446" duration="308000" />
+      <workItem from="1705155110613" duration="316000" />
+      <workItem from="1705155636183" duration="717000" />
+      <workItem from="1705156789128" duration="414000" />
+      <workItem from="1705157401455" duration="3482000" />
     </task>
     <task id="LOCAL-00001" summary="POM - Dependencies">
       <created>1704995431766</created>
@@ -173,7 +190,28 @@
       <option name="project" value="LOCAL" />
       <updated>1705068813780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Readme.md - API task - Documented behavior &amp; found bugs.">
+      <created>1705070166822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705070166822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Readme.md - API task - POST - ID - 'automatically added' addition.">
+      <created>1705070478931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705070478931</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Readme.md - API task - POST - ID - 'automatically added' addition.">
+      <created>1705144974096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705144974097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +231,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="POM - Dependencies" />
     <MESSAGE value="BE - API infrastructure &amp; tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="BE - API infrastructure &amp; tests" />
+    <MESSAGE value="Readme.md - API task - Documented behavior &amp; found bugs." />
+    <MESSAGE value="Readme.md - API task - POST - ID - 'automatically added' addition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md - API task - POST - ID - 'automatically added' addition." />
   </component>
 </project>

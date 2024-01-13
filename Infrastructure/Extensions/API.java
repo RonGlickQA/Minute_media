@@ -161,6 +161,10 @@ public class API extends common {
             test.log(LogStatus.FAIL, "Post OBJECT", "Please handle the exception: " + e.getMessage());
             softAssert.fail(e.getMessage());
             fail();
+        } catch (AssertionError ae) {
+            test.log(LogStatus.FAIL, "Post OBJECT", "Please handle the assertion error: " + ae.getMessage());
+            softAssert.fail(ae.getMessage());
+            fail();
         }
     }
 
